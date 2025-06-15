@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-lates
     steps:
     - name: Github metadata
-      run: ${{ github }}
+      run: echo ${{ github }}
